@@ -4,5 +4,6 @@ class Controller
   def initialize 
    Scope.students 'kuroun'
    Scope.majors 'computer science'
+   Scope.score 99
   end 
 end
